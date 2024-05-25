@@ -7,7 +7,7 @@ let Kinder = 25
 let topping;
 let precio;
 
-if (precio == 10) {
+if (topping == Oreo) {
     PrecioFinal = helado + Oreo;
     console.log( "El helado cuesta $" + PrecioFinal)
 } else if ( topping == KitKat) {
