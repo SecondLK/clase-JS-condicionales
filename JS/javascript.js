@@ -67,3 +67,24 @@ while( numero < 11) {
     console.log(numero + " es mas chico que 11");
 
     numero++;}
+    
+    function saludar(){
+        let nombre = prompt("Como te llamas?");
+        let saludo = ("Hola " + nombre);
+        
+        switch(nombre) {
+          case "Segundo":
+            text = "Buen dia Segundo";
+            break;
+          case "Valentino":
+            text  = "Como estas, Valentino?";
+            break;
+          case "Martin":
+            text = "Todo bien, Martin?";
+            break;
+         default:
+            text = "Por favor ingrese su nombre";
+        }
+    alert(saludo)   
+    }
+saludar();
